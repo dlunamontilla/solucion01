@@ -22,7 +22,7 @@ Si el problema persiste deberá identificar la causa, de lo contrario, deberá p
 
 ## Conclusión
 
-La solución funciona, tal y como se pudo observar en las capturas de pantallas anteriores.
+La solución funciona tal y como se pudo observar en las capturas de pantallas anteriores.
 
 [stack-overflow]: https://es.stackoverflow.com/questions/432697/problemas-para-que-un-div-adopte-el-tama%c3%b1o-del-dispositivo-html-y-css/432734#432734 "Respuesta"
 [vista-previa-chrome]: https://i.ibb.co/582dhgS/Desde-Chrome.png "Pruebas realizadas con Chrome"
