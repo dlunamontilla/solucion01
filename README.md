@@ -16,7 +16,7 @@ Vista desde un Smartphone utilizando Chrome:
 
 ![][vista-previa-smartphone]
 
-Por lo tanto, se decide subir **toda esta solución a GitHub** con el objeto de demostrar que la solución funciona.
+Por lo tanto, se decide subir **toda esta solución a GitHub** con el objeto de demostrar que funciona.
 
 Si el problema persiste deberá identificar la causa, de lo contrario, deberá publicar el proyecto completo en Internet para poder identificar la causa.
 
