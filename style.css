@@ -1,0 +1,418 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Arimo:400,700|Lato:300,400,700,900|Open+Sans:300,400,600,700,800|Permanent+Marker|Roboto:300,400,500,700,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap");
+@font-face {
+  font-family: "Space Mono";
+  src: url("../fonts/SpaceMono-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Space Mono";
+  src: url("../fonts/SpaceMono-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Space Mono";
+  src: url("../fonts/SpaceMono-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Space Mono";
+  src: url("../fonts/SpaceMono-BoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+body {
+  font-family: "Space Mono";
+  font-size: 14px;
+  background-color: #1c1b20;
+  color: #dadad3;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+h1,
+.h1,
+.h1-size {
+  font-size: 26px;
+}
+
+h2,
+.h2,
+.h2-size {
+  font-size: 24px;
+}
+
+h3,
+.h3,
+.h3-size {
+  font-size: 20px;
+}
+
+h4,
+.h4,
+.h4-size {
+  font-size: 16px;
+}
+
+h5,
+.h5,
+.h5-size {
+  font-size: 14px;
+}
+
+h6,
+.h6,
+.h6-size {
+  font-size: 12px;
+}
+
+a,
+.text-link-style {
+  font-family: "Space Mono", sans-serif;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+}
+
+a[href]:hover,
+[href].text-link-style:hover {
+  color: rgba(255, 255, 255, 0.87);
+  text-decoration: none;
+}
+
+section {
+  margin-top: 3rem;
+}
+
+small,
+.small {
+  font-size: 13px;
+}
+
+label {
+  font-weight: bold;
+}
+
+.text-mono {
+  font-family: "Roboto Mono", monospace !important;
+}
+
+.text-roboto {
+  font-family: "Roboto", sans-serif !important;
+}
+
+.text-marker {
+  font-family: "Permanent Marker", sans-serif !important;
+}
+
+.text-arimo {
+  font-family: "Arimo", "Open Sans", sans-serif !important;
+}
+
+.text-open-sans {
+  font-family: "Open Sans", sans-serif !important;
+}
+
+.ligth {
+  font-weight: 300 !important;
+}
+
+.normal {
+  font-weight: 400 !important;
+}
+
+.bold {
+  font-weight: 600 !important;
+}
+
+.extra-bold {
+  font-weight: 700 !important;
+}
+
+.headline-1 {
+  font-size: 22px;
+}
+
+.headline-2 {
+  font-size: 24px;
+}
+
+.headline-3 {
+  font-size: 30px;
+}
+
+.headline-4 {
+  font-size: 40px;
+}
+
+.remove-list-styles {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.navbar--blue-custom {
+  box-shadow: -1px 7px 13px -2px rgba(0, 0, 0, 0.49);
+}
+
+.form-control {
+  font-family: "Open Sans", sans-serif;
+  background-color: rgba(0, 0, 0, 0);
+  color: #fff !important;
+}
+
+.form-control:hover {
+  background-color: transparent !important;
+}
+
+.form-control:focus {
+  background-color: transparent;
+  border-color: #dadada;
+  box-shadow: 0px 0px 17px 3px rgba(0, 0, 0, 0.75);
+}
+
+.btn {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.btn-lg {
+  font-size: 16px;
+}
+
+.podcast {
+  margin-bottom: 50px;
+}
+
+.podcast__name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.podcast__description {
+  margin-bottom: 18px;
+  text-align: justify;
+}
+
+.podcast__badge-link {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-top: 3px;
+  margin-right: 1px;
+}
+
+.podcast__badge-link > img {
+  width: 100%;
+}
+
+.podcast__show-more,
+.podcast__show-less {
+  display: inline-block;
+  margin-left: 7px;
+  font-weight: 700;
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.podcast__show-more:hover,
+.podcast__show-less:hover {
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.podcast__show-more-content {
+  display: inline;
+}
+
+.footer {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto 50px auto;
+  text-align: center;
+  border-top: 1px solid #fff;
+  width: 83%;
+  padding-top: 10px;
+}
+
+.social-icons {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.social-icons__item {
+  display: inline;
+}
+
+.social-icons__link {
+  color: #c6cbd1;
+  transition: 1s;
+  font-size: 20px;
+}
+
+.social-icons__link:hover {
+  color: #fff;
+  font-size: 24px;
+}
+
+.page-not-found {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.page-not-found__column-left,
+.page-not-found__column-right {
+  grid-column: span 1;
+}
+
+.page-not-found__column-left {
+  display: flex;
+}
+
+.page-not-found__column-left > span {
+  font-size: 90px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-not-found__column-right {
+  padding-top: 10px;
+}
+
+.page-not-found__link {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.page-not-found__title {
+  font-size: 26px;
+  margin-bottom: 0.5rem;
+}
+
+.page-not-found__subtitle {
+  font-size: 19px;
+}
+
+.articles-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.article-card {
+  border-left: 4px solid #fff;
+  border-radius: 3px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.062);
+  grid-column: span 1;
+}
+
+.article-card__title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.article-card__content {
+  margin-bottom: 10px;
+}
+
+.main-header {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  text-align: center;
+  line-height: 22px;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  border-bottom: solid 1px #ddd;
+  color: #000;
+  background-color: white;
+  height: 100vh;
+  /* Propiedad innecesaria*/
+  /* width: 100vw; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  /* Se elimina esta propiedad, sin embargo, si su
+   intención era dejarla no la elimines */
+  /* bottom: $body-padding-top; */
+  z-index: 2000;
+}
+
+.main-header__logo {
+  width: 120px;
+  height: 120px;
+}
+
+@media (max-width: 720px) {
+  .articles-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 540px) {
+  .articles-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .page-not-found {
+    grid-template-columns: 1fr;
+  }
+
+  .page-not-found__column-right {
+    text-align: center;
+  }
+
+  .main-header {
+    font-size: 5px;
+    letter-spacing: 4px;
+  }
+
+  .main-header__logo {
+    width: 60px;
+    height: 60px;
+  }
+}
+.header {
+  padding: 50px;
+  background-color: #1a1a1a28;
+}
+
+.item-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.item-grid .item {
+  grid-column: span 1;
+  padding: 15px;
+  border-left: 3px solid #fff;
+}
+
+/*# sourceMappingURL=style.css.map */

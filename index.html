@@ -1,15 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Solución de prueba</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>La Voz del pensamiento</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <main id="app"></main>
+
+    <div class="main-header">
+        <img src="img/vp001.svg" class="main-header__logo" alt="">
+
+        <span>
+            /* <span id="typed-text"></span> <span id="typed-cursor" style="transition: .0ms;">|</span> */
+        </span>
+    </div>
+
+    <!-- .navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top navbar--blue-custom">
+        <div class="container">
+
+            <a href="" class="navbar-brand">
+                <img height="70px" width="70px" src='img/vp001.svg' alt="VP">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav" aria-controls="nav"
+                aria-expanded="false">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Podcasts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Artículos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- ./navbar -->
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
